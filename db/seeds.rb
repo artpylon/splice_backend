@@ -10,8 +10,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 require 'csv'
 
-csv_text = File.read(Rails.root.join('public', 'cards.csv'))
-csv_text = csv_text.strip
+csv_text = File.read(Rails.root.join('db', 'cards.csv'))
+csv_text = csv_text.squish
 csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|
   Card.create!(Hash[row])
