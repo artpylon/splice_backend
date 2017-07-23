@@ -1,9 +1,10 @@
 #!/bin/bash
 
-API="${API_ORIGIN:-http://localhost:4741}"
+API="${API_ORIGIN:-https://splice-api.herokuapp.com/}"
 URL_PATH="/sign-in"
-EMAIL=t
-PASSWORD=t
+
+EMAIL=2@2.com
+PASSWORD=2
 curl "${API}${URL_PATH}" \
   --include \
   --request POST \
