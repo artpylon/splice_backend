@@ -1,10 +1,12 @@
 # Splice!
 Splice is a single-player pattern matching game, based on the popular card game Set&trade;. I built this full-stack application in 4 days using Ember.js and Ruby on Rails.
 
+
 # ERD
 ![Alt text](http://i.imgur.com/SFGJRmr.png "ERD")
 
 # Routes
+
 
 ### Authentication
 
