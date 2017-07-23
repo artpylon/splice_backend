@@ -1,8 +1,8 @@
 #!/bin/bash
 
-API="${API_ORIGIN:-http://localhost:4741}"
+API="${API_ORIGIN:-https://splice-api.herokuapp.com/}"
 URL_PATH="/games"
-TOKEN=BAhJIiVmOThhOWI0MDE0YjNhZmY3NDJlMDYxMDExZjZlZjNkYQY6BkVG--bbcc124e2371f8463fa9e18dbd2564bfc70fa8a6
+TOKEN=BAhJIiVkN2VjNzFmZjQ1YjA3MTYwOGIzYTM0YmIxM2Y0NzU1YQY6BkVG--9f5c3ddc0238eb374a914795d7f8d9633e805c00
 
 curl "${API}${URL_PATH}" \
   --include \
